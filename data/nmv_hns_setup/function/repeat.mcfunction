@@ -1,7 +1,9 @@
 execute as @a if score #enable setupMode matches 1 run function nmv_hns_setup:item
 
-# trigger
-function nmv_hns_setup:components/trigger/repeat
+##region trigger
+    function nmv_hns_setup:components/trigger/repeat
+    function nmv_hns_setup:components/trigger/enable
+##endregion trigger
 
 # display scoreboard
 function nmv_hns_setup:main__function/scoreboard/score
