@@ -1,0 +1,1 @@
+data modify storage nmv_hns:language languageSelected set value '["§aIdioma selecionado: §bPortuguês (Brasil)"]'
