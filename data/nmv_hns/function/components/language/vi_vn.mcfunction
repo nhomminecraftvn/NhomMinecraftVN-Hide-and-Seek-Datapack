@@ -1,0 +1,1 @@
+data modify storage nmv_hns:language languageSelected set value '["§aNgôn ngữ đã được chọn: §bTiếng Việt"]'
