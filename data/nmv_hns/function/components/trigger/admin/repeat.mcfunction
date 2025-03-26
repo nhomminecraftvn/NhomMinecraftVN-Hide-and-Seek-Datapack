@@ -1,1 +1,2 @@
 execute if score ingame game_stats matches 0 as @a[scores={setRequirePlayer=1..,triggerCooldown=0}] run function nmv_hns:components/trigger/admin/set_require_player
+execute if score ingame game_stats matches 0 as @a[scores={setLanguage=1..,triggerCooldown=0}] run function nmv_hns:components/trigger/admin/set_language

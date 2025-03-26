@@ -16,6 +16,7 @@ function nmv_hns:components/trigger/players/repeat
 
     # cool down for administrator
     execute as @a[scores={triggerCooldown=1..}] run scoreboard players set @s setRequirePlayer 0
+    execute as @a[scores={triggerCooldown=1..}] run scoreboard players set @s setLanguage 0
 
     # cool down for player
     execute as @a[scores={triggerCooldown=1..}] run scoreboard players set @s user_info 0
