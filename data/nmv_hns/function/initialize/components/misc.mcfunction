@@ -6,6 +6,8 @@ scoreboard objectives add money dummy
 scoreboard objectives add priceList dummy
 scoreboard objectives add playerLeave custom:leave_game
 
+scoreboard objectives add languageValue dummy
+
 scoreboard players add #hider playerList 0
 scoreboard players add #seeker playerList 0
 scoreboard players add require playerList 0
