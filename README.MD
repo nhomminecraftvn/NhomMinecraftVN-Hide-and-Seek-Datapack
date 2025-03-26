@@ -36,7 +36,7 @@ A Hide and Seek Minigame in your Minecraft Server
 
 - Set Required number of Player in config.
 
-```mcfunction
+```
 /trigger setPlayerRequire set <value>
 ```
 
