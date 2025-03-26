@@ -55,4 +55,8 @@ function nmv_hns:components/player_leave
 
     # anti offhand
     execute as @a[nbt={Inventory:[{Slot:-106b}]}] run item replace entity @s weapon.offhand with air
+
+    # language value
+    scoreboard players add value languageValue 0
+    execute if score value languageValue matches 0 run scoreboard players set value languageValue 1
 ##endregion command
