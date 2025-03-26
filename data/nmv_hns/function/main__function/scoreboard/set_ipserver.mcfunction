@@ -1,0 +1,1 @@
+$scoreboard players display name ipServer sb ["§e$(IP)"]

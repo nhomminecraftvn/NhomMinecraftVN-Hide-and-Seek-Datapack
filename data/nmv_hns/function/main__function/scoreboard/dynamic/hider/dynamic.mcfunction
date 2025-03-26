@@ -1,0 +1,10 @@
+function common:main__function/scoreboard/dynamic/hider/1
+function common:main__function/scoreboard/dynamic/hider/2
+function common:main__function/scoreboard/dynamic/hider/3
+function common:main__function/scoreboard/dynamic/hider/4
+function common:main__function/scoreboard/dynamic/hider/5
+function common:main__function/scoreboard/dynamic/hider/6
+function common:main__function/scoreboard/dynamic/hider/7
+function common:main__function/scoreboard/dynamic/hider/8
+function common:main__function/scoreboard/dynamic/hider/9
+function common:main__function/scoreboard/dynamic/hider/10

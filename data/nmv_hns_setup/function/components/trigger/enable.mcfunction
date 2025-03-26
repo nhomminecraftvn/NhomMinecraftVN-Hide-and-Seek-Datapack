@@ -1,0 +1,2 @@
+execute as @a[tag=admin] if score #enable setupMode matches 1 run scoreboard players enable @s setSeekerLength
+execute as @a[tag=admin] if score #enable setupMode matches 0 run scoreboard players reset @s setSeekerLength

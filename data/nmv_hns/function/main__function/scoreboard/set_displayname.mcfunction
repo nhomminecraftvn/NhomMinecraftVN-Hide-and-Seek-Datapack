@@ -1,0 +1,1 @@
+$scoreboard objectives modify sb displayname ["$(DisplayName)"]

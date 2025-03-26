@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "nmv_hns:reload", "nmv_hns_setup:reload"
+    ]
+}

@@ -1,0 +1,1 @@
+function nmv_hns:main__function/scoreboard/score
