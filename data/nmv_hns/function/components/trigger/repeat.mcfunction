@@ -25,5 +25,5 @@ function nmv_hns:components/trigger/players/repeat
     execute if score #enable setupMode matches 0 run scoreboard players reset @a[tag=!admin] setup_mode
     execute if score #enable setupMode matches 1 run scoreboard players reset @a setup_mode
     execute if score #enable setupMode matches 0 run scoreboard players enable @a[tag=admin] setup_mode
-    execute if score #enable setupMode matches 0 as @a[scores={setup_mode=1..}] run function setup:enable
+    execute if score #enable setupMode matches 0 as @a[scores={setup_mode=1..}] run function nmv_hns_setup:enable
 ##endregion command
