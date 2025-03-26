@@ -1,3 +1,6 @@
+# welcome message
+execute as @a run function nmv_hns:initialize/welcome
+
 # gamerule
 function nmv_hns:initialize/components/gamerule
 
