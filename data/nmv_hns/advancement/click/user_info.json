@@ -14,7 +14,7 @@
       }
     },
     "rewards": {
-      "function": "common:components/click/user_info"
+      "function": "nmv_hns:components/click/user_info"
     }
   }
   

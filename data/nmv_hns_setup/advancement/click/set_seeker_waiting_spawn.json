@@ -19,7 +19,7 @@
       }
     },
     "rewards": {
-      "function": "setup:components/facing/show_seeker_waiting_facing"
+      "function": "nmv_hns_setup:components/facing/show_seeker_waiting_facing"
     }
   }
   

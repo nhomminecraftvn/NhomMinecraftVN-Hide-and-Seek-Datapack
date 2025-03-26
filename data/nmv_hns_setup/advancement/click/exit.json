@@ -19,7 +19,7 @@
       }
     },
     "rewards": {
-      "function": "setup:components/click/exit"
+      "function": "nmv_hns_setup:components/click/exit"
     }
   }
   

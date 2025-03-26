@@ -14,7 +14,7 @@
       }
     },
     "rewards": {
-      "function": "common:components/click/run_matching_time"
+      "function": "nmv_hns:components/click/run_matching_time"
     }
   }
   

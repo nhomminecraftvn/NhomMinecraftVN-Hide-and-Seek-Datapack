@@ -14,7 +14,7 @@
       }
     },
     "rewards": {
-      "function": "common:main__function/ingame/use_item/disclose_hider"
+      "function": "nmv_hns:main__function/ingame/use_item/disclose_hider"
     }
   }
   

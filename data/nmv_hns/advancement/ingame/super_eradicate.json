@@ -15,6 +15,6 @@
       }
     },
     "rewards": {
-      "function": "common:main__function/ingame/use_item/super_eradicate"
+      "function": "nmv_hns:main__function/ingame/use_item/super_eradicate"
     }
   }
