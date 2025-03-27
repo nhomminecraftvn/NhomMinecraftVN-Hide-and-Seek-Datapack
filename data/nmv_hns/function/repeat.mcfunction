@@ -28,8 +28,6 @@ function nmv_hns:components/shop/set_price_list
 ##region ingame
     function nmv_hns:main__function/ingame/set_spawn
     function nmv_hns:main__function/ingame/found
-
-    effect give @a night_vision infinite 0 true
     execute if score ingame game_stats matches 1 as @a[gamemode=spectator] run gamemode adventure @s
 ##endregion ingame
 
