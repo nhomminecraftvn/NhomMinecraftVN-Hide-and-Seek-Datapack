@@ -1,8 +1,8 @@
 scoreboard players set @s triggerCooldown 100
 
-tellraw @s[scores={shop=1}] ["§b§lShop"]
-tellraw @s[scores={shop=1}] ["§7Click the bold title text to buy"]
-tellraw @s[scores={shop=1}] ["§7- §aYou have: ",{"score":{"name": "@s","objective": "money"}}," Money\n"]
+tellraw @s[scores={shop=1}] [{"nbt":"shop.title","storage":"nmv_hns:language","interpret":true}]
+tellraw @s[scores={shop=1}] [{"nbt":"shop.help_text","storage":"nmv_hns:language","interpret":true}]
+tellraw @s[scores={shop=1}] [{"nbt":"shop.player_have_money","storage":"nmv_hns:language","interpret":true}]
 
 execute if entity @s[scores={shop=1}] run function nmv_hns:components/shop/show_shop_list
 

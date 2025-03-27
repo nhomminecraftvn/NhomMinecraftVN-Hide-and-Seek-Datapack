@@ -10,7 +10,11 @@ data modify storage nmv_hns:language shop set value { \
     item_6: '["§7- §a§lINVISIBILITY"]', \
     title: '["§a§lShop"]', \
     help_text: '["§7Click the bold title text to buy"]', \
-    player_have_money: '["§7- §aYou have: ",{"score":{"name": "@s","objective": "money"}}," Money\\n"]' \
+    player_have_money: '["§7- §aYou have: ",{"score":{"name": "@s","objective": "money"}}," Money\\n"]', \
+    bought: '["§aYou bought: "]', \
+    have_it: '["§cYou\'re have it."]', \
+    not_enough_money: '["§cYou don\'t have enough money"]', \
+    cant_bought_anti_deduction_rank_score: '["§cYou can\'t bought ",{"nbt":"shop.item_3","storage":"nmv_hns:language","interpret":true}," §cif your not enough ",{"score":{"name":"enableDeductRankScore","objective": "rankScoreGet"},"color": "red"}," §cPoints"]', \
 }
 
 data modify storage nmv_hns:language shopHoverText set value { \
@@ -28,5 +32,5 @@ data modify storage nmv_hns:language shopPriceText set value { \
     item_3: '["\\n§fPrice: ",{"score":{"name": "antiDeductionRankScore", "objective": "priceList"}}, " §aMoney"]', \
     item_4: '["\\n§fPrice: ",{"score":{"name": "eradicate", "objective": "priceList"}}, " §aMoney"]', \
     item_5: '["\\n§fPrice: ",{"score":{"name": "superEradicate", "objective": "priceList"}}, " §aMoney"]', \
-    item_6: '["\\n§fPrice: ",{"score":{"name": "invisbility", "objective": "priceList"}}, " §aMoney"]' \
+    item_6: '["\\n§fPrice: ",{"score":{"name": "invisibility", "objective": "priceList"}}, " §aMoney"]' \
 }
