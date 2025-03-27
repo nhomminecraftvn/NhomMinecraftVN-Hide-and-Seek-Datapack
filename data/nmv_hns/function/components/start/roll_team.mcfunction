@@ -10,12 +10,12 @@ scoreboard players set @a teamRolling 0
 
 # title for team
 title @a[team=hider] times .25s 2s .5s
-title @a[team=hider] title "You are §aHIDER"
-title @a[team=hider] subtitle "§7You should hide in one place as much as possible" 
+title @a[team=hider] title {"nbt":"gamePlay.hider.hider_title","storage":"nmv_hns:language","interpret":true}
+title @a[team=hider] subtitle {"nbt":"gamePlay.hider.hider_subtitle","storage":"nmv_hns:language","interpret":true}
 
 title @a[team=seeker] times .25s 2s .5s
-title @a[team=seeker] title "You are §cSEEKER"
-title @a[team=seeker] subtitle "§7Find all the Player hiding somewhere!" 
+title @a[team=seeker] title {"nbt":"gamePlay.seeker.seeker_title","storage":"nmv_hns:language","interpret":true}
+title @a[team=seeker] subtitle {"nbt":"gamePlay.seeker.seeker_subtitle","storage":"nmv_hns:language","interpret":true}
 
 # teleport to teams
 tp @e[type=player,team=hider] @e[type=marker,tag=hider,limit=1]

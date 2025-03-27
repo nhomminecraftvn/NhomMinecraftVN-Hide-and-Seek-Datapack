@@ -11,7 +11,7 @@ data modify storage nmv_hns:language shop set value { \
     title: '["§a§lCửa hàng"]', \
     help_text: '["§7Nhấp vào tiêu đề chữ in đậm để mua"]', \
     player_have_money: '["§7- §aBạn có: ",{"score":{"name": "@s","objective": "money"}}," tiền\\n"]', \
-    bought: '["§aBạn đã mua: "]', \
+    bought: '["§aBạn đã mua "]', \
     have_it: '["§cBạn đã có nó."]', \
     not_enough_money: '["§cBạn không có đủ tiền"]', \
     cant_bought_anti_deduction_rank_score: '["§cBạn không thể mua ",{"nbt":"shop.item_3","storage":"nmv_hns:language","interpret":true}," §cnếu bạn không đủ ",{"score":{"name":"enableDeductRankScore","objective": "rankScoreGet"},"color": "red"}," §cĐiềm"]', \
@@ -35,6 +35,26 @@ data modify storage nmv_hns:language shopPriceText set value { \
     item_6: '["\\n§fGiá: ",{"score":{"name": "invisibility", "objective": "priceList"}}, " §atiền"]', \
 }
 
+# genereal
 data modify storage nmv_hns:language gamePlay set value { \
-    \
+    hider: { \
+        hider_title: '["Bạn là §aHIDER"]', \
+        hider_subtitle: '["§7Bạn nên trốn ở một nơi an toàn nhất"]', \
+    }, \
+    seeker: { \
+        seeker_title: '["Bạn là §cSEEKER"]', \
+        seeker_subtitle: '["§7Tìm tất cả người chơi đang trốn ở đâu đó!"]', \
+    }, \
+    seeker_release_timer_second: '["§6Seeker sẽ được thả trong ", {"score": {"name": "#seekerReleaseSeconds", "objective": "timer.storage"}}, " giây!"]', \
+    seeker_release_timer_seconds: '["§6Seeker sẽ được thả trong ", {"score": {"name": "#seekerReleaseSeconds", "objective": "timer.storage"}}, " giây!"]', \
+    seeker_released: '["§cSeeker §fđã được thả!"]', \
+    player_count: '["§7| §bNgười chơi: ", {"score":{"name":"list","objective":"playerList"}},"/",{"score":{"name":"require","objective":"playerList"}}]', \
+    waiting_other_player: '["§bĐang chờ người chơi... "]', \
+    starting: '["§bĐang bắt đầu... ", {"score":{"name":"seconds","objective":"matchingTime"}},"s "]', \
+}
+
+data modify storage nmv_hns:language general set value { \
+    user_info: { \
+        \
+    }, \
 }
