@@ -54,12 +54,20 @@ data modify storage nmv_hns:language gamePlay set value { \
 
 data modify storage nmv_hns:language general set value { \
     user_info: { \
-        title: '[""]', \
+        title: '["§bUser Info for ", {"selector": "@s","color": "white"}]', \
+        uuid_nbt: '["§7- §aUUID NBT: ",{"nbt": "UUID","entity": "@s"}]',\
+        rank_stats_title: '["§bRank Stats:"]',\
+        rank_tier: '["§7- §aRank Tier: ",{"score":{"name": "@s", "objective": "rankTier"}}]',\
+        rank_score_require_point: '["§7- §aRank Scores: ",{"score":{"name": "@s", "objective": "rankScore"}}, "§7 (Require ",{"score":{"name": "@s", "objective": "rankRequireDiff"},"color": "aqua"}," §7Point to Rank Up.)"]',\
+        rank_score_require_points: '["§7- §aRank Scores: ",{"score":{"name": "@s", "objective": "rankScore"}}, "§7 (Require ",{"score":{"name": "@s", "objective": "rankRequireDiff"},"color": "aqua"}," §7Points to Rank Up.)"]',\
+        rank_score_max: '["§7- §aRank Scores: ",{"score":{"name": "@s", "objective": "rankScore"}},"/",{"score":{"name": "@s", "objective": "rankRequireValue"}}, "§7 (Max)"]',\
     }, \
 }
 
 data modify storage nmv_hns:language adminCommands set value { \
-    user_info: { \
-        \
-    }, \
+    \
+}
+
+data modify storage nmv_hns:language rewards set value { \
+    \
 }
