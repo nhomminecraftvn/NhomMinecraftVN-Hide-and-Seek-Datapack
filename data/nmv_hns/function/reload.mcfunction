@@ -1,3 +1,7 @@
+##region data
+    data modify storage nmv_hns:product version set value "§7v1.04 §aRelease"
+##endregion data
+
 # welcome message
 execute as @a run function nmv_hns:initialize/welcome
 

@@ -1,5 +1,11 @@
 data modify storage nmv_hns:language languageSelected set value '["§aLanguage Selected: §bEnglish"]'
 
+data modify storage nmv_hns:language product set value { \
+    item_product: '["§7NhomMinecraftVN §bHide and Seek Datapack"]', \
+    product_reloaded: '["§f has loaded!"]', \
+    version: '["Version: ",{"nbt":"version","storage":"nmv_hns:product"}]', \
+}
+
 # shop
 data modify storage nmv_hns:language shop set value { \
     item_1: '["§7- §b§lDISCLOSE SEEKER"]', \
@@ -64,10 +70,15 @@ data modify storage nmv_hns:language general set value { \
     }, \
 }
 
-data modify storage nmv_hns:language adminCommands set value { \
-    \
+data modify storage nmv_hns:language rewards set value { \
+    money: { \
+        \
+    }, \
+    rank_score: { \
+        \
+    }, \
 }
 
-data modify storage nmv_hns:language rewards set value { \
+data modify storage nmv_hns:language adminCommands set value { \
     \
 }

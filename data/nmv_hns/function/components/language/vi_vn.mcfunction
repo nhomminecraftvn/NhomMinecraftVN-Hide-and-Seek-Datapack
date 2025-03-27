@@ -1,5 +1,11 @@
 data modify storage nmv_hns:language languageSelected set value '["§aNgôn ngữ đã được chọn: §bTiếng Việt"]'
 
+data modify storage nmv_hns:language product set value { \
+    item_product: '["§7NhomMinecraftVN §bHide and Seek Datapack"]', \
+    product_reloaded: '["§f đã được nạp!"]', \
+    version: '["Phiên bản: ",{"nbt":"version","storage":"nmv_hns:product"}]', \
+}
+
 # shop
 data modify storage nmv_hns:language shop set value { \
     item_1: '["§7- §b§lTIẾT LỘ SEEKER"]', \
@@ -66,7 +72,12 @@ data modify storage nmv_hns:language general set value { \
 }
 
 data modify storage nmv_hns:language rewards set value { \
-    \
+    money: { \
+        \
+    }, \
+    rank_score: { \
+        \
+    }, \
 }
 
 data modify storage nmv_hns:language adminCommands set value { \
