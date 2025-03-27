@@ -3,7 +3,8 @@
     - [1.1 Feature](#feature)
     - [1.2 Datapack Requires](#datapack-requires)
     - [1.3 Gameplay Setup](#gameplay-setup)
-    - [1.4 Ranking](#ranking)
+    - [1.4 Item](#item)
+    - [1.5 Ranking](#ranking)
 - [2. Report Bugs](#report-bugs)
 - [3. Contact](#contact)
 - [4. FAQ](#faq)
@@ -30,7 +31,7 @@ A Hide and Seek Minigame in your Minecraft Server
 
 ## Datapack Requires
 
-- With `pack_format: 48` require Minecraft 1.21 - 1.21.1
+- With `pack_format: 61` require Minecraft 1.21.4
 
 ## Gameplay Setup
 
