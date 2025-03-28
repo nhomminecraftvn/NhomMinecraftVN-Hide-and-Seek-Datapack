@@ -1,7 +1,7 @@
 tellraw @a "§cSeeker §fWin"
 
-scoreboard players add @a[team=seeker] money 1500
-tellraw @a[team=seeker] "§a+1500 §fMoney"
+scoreboard players operation @a[team=seeker] getMoneyValue += seekerWin getMoney
+tellraw @a[team=seeker] ["§a+",{"score":{"name": "seekerWin","objective":"getMoney"},"color": "green"}," §f",{"nbt":"general.money","storage":"nmv_hns:language","interpret":true}]
 
 execute as @a[team=seeker,tag=!multiplyRankScore,tag=seekerOwner] run function nmv_hns:components/win/get_points/seeker
 execute as @a[team=seeker,tag=multiplyRankScore,tag=seekerOwner] run function nmv_hns:components/win/get_points/seeker_mul

@@ -41,7 +41,7 @@ data modify storage nmv_hns:language shopPriceText set value { \
     item_6: '["\\n§fGiá: ",{"score":{"name": "invisibility", "objective": "priceList"}}, " §atiền"]', \
 }
 
-# genereal
+# general
 data modify storage nmv_hns:language gamePlay set value { \
     hider: { \
         hider_title: '["Bạn là §aHIDER"]', \
@@ -60,6 +60,7 @@ data modify storage nmv_hns:language gamePlay set value { \
 }
 
 data modify storage nmv_hns:language general set value { \
+    money: '["tiền"]', \
     user_info: { \
         title: '["§bThông tin của ", {"selector": "@s","color": "white"}]', \
         uuid_nbt: '["§7- §aUUID NBT: ",{"nbt": "UUID","entity": "@s"}]',\

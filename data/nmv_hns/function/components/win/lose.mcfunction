@@ -1,6 +1,6 @@
 title @s title "§cLose"
-scoreboard players add @s money 1000
-tellraw @s "§a+1000 §fMoney"
+scoreboard players operation @s getMoneyValue += gameplay getMoney
+tellraw @s ["§a+",{"score":{"name": "gameplay","objective":"getMoney"},"color": "green"}," §f",{"nbt":"general.money","storage":"nmv_hns:language","interpret":true}]
 
 execute if score @s[tag=!antiDeductionRankScore] rankScore >= enableDeductRankScore rankScoreGet run scoreboard players operation @s rankScore -= loseGame rankScoreGet
 execute if score @s[tag=!antiDeductionRankScore] rankScore >= enableDeductRankScore rankScoreGet run tellraw @s ["§c-",{"score": {"name": "loseGame","objective": "rankScoreGet"},"color": "red"}," §fRank Score Points"]

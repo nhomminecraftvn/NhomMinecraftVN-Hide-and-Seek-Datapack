@@ -2,7 +2,6 @@ scoreboard objectives add sb dummy
 scoreboard objectives add playerList dummy
 scoreboard objectives add game_stats dummy
 scoreboard objectives add teamRolling dummy
-scoreboard objectives add money dummy
 scoreboard objectives add priceList dummy
 scoreboard objectives add playerLeave custom:leave_game
 

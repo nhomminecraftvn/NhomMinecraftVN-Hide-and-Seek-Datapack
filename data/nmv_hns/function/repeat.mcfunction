@@ -25,6 +25,12 @@ function nmv_hns:components/item_delay
 # shop
 function nmv_hns:components/shop/set_price_list
 
+# language
+function nmv_hns:components/language
+
+# currency
+function nmv_hns:main__function/currency/repeat
+
 ##region ingame
     function nmv_hns:main__function/ingame/set_spawn
     function nmv_hns:main__function/ingame/found
@@ -58,6 +64,3 @@ function nmv_hns:components/player_leave
     scoreboard players add value languageValue 0
     execute if score value languageValue matches 0 run scoreboard players set value languageValue 1
 ##endregion command
-
-# language
-function nmv_hns:components/language
