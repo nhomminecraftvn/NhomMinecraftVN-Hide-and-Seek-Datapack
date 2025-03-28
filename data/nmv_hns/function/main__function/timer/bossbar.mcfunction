@@ -6,7 +6,7 @@ scoreboard players operation secondsBossbar timer.storage = #timeLeftBossbar tim
 scoreboard players operation secondsBossbar timer.storage /= 20 time_const
 scoreboard players operation secondsBossbar timer.storage %= 60 time_const
 
-execute if score secondsBossbar timer.storage < dec time_const run bossbar set nmv_hns:main name ["§bTime Left: ", {"score": {"name": "minutesBossbar", "objective": "timer.storage"}},":0", {"score": {"name": "secondsBossbar", "objective": "timer.storage"}}]
-execute if score secondsBossbar timer.storage >= dec time_const run bossbar set nmv_hns:main name ["§bTime Left: ", {"score": {"name": "minutesBossbar", "objective": "timer.storage"}},":", {"score": {"name": "secondsBossbar", "objective": "timer.storage"}}]
+execute if score secondsBossbar timer.storage < dec time_const run bossbar set nmv_hns:main name [{"nbt":"gamePlay.time_left_digit_1","storage":"nmv_hns:language","interpret":true}]
+execute if score secondsBossbar timer.storage >= dec time_const run bossbar set nmv_hns:main name [{"nbt":"gamePlay.time_left_digit_2","storage":"nmv_hns:language","interpret":true}]
 
 execute store result bossbar nmv_hns:main value run scoreboard players get #timeLeftBossbar timer.storage

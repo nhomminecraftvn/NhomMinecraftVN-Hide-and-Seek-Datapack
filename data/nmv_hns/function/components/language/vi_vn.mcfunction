@@ -57,6 +57,10 @@ data modify storage nmv_hns:language gamePlay set value { \
     player_count: '["§7| §bNgười chơi: ", {"score":{"name":"list","objective":"playerList"}},"/",{"score":{"name":"require","objective":"playerList"}}]', \
     waiting_other_player: '["§bĐang chờ người chơi... "]', \
     starting: '["§bĐang bắt đầu... ", {"score":{"name":"seconds","objective":"matchingTime"}},"s "]', \
+    time_left_digit_1: '["§bThời gian còn lại: ", {"score": {"name": "minutesBossbar", "objective": "timer.storage"}},":0", {"score": {"name": "secondsBossbar", "objective": "timer.storage"}}]',\
+    time_left_digit_2: '["§bThời gian còn lại: ", {"score": {"name": "minutesBossbar", "objective": "timer.storage"}},":", {"score": {"name": "secondsBossbar", "objective": "timer.storage"}}]',\
+    has_been_found: '["Bạn đã bị ", {"selector": "@a[scores={hiderDamage=0},team=seeker,limit=1]","color": "red"}, " tìm thấy"]', \
+    found: '[{"selector":"@a[scores={turnToSeeker=0},team=seeker,limit=1]"}," tìm thấy ",{"selector":"@a[scores={turnToSeeker=1},team=hider,limit=1]"}]', \
 }
 
 data modify storage nmv_hns:language general set value { \
@@ -73,11 +77,17 @@ data modify storage nmv_hns:language general set value { \
 }
 
 data modify storage nmv_hns:language rewards set value { \
-    money: { \
-        \
-    }, \
     rank_score: { \
-        \
+        lose: '[]', \
+        lose_use_anti_deduction: '[]', \
+        found: '[]', \
+        found_use_anti_deduction: '[]', \
+        win: '[]', \
+        win_use_multiply: '[]', \
+        seeker_win: '[]', \
+        seeker_win_use_multiply: '[]', \
+        non_seeker_owner_win: '[]', \
+        non_seeker_owner_win_use_multiply: '[]', \
     }, \
 }
 
