@@ -1,0 +1,1 @@
+# scoreboard players add @a[scores={playerLeave=0}] playtime.tick 1

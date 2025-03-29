@@ -38,6 +38,9 @@ function nmv_hns:initialize/components/rank_tier
 # currency
 function nmv_hns:initialize/components/currency
 
+# playtime
+function nmv_hns:initialize/components/playtime
+
 ##region command
     # show "sb" objectives
     execute if score #enable setupMode matches 0 run scoreboard objectives setdisplay sidebar sb
