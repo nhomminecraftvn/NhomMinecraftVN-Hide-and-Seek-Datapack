@@ -1,7 +1,7 @@
-execute as @a[scores={hiderDamage=4..,turnToSeeker=0},team=hider,limit=1] run title @s title ["You has been ", {"selector": "@a[scores={hiderDamage=0},team=seeker,limit=1]","color": "red"}, " found"]
+execute as @a[scores={hiderDamage=2..,turnToSeeker=0},limit=1] run title @s title ["You has been ", {"selector": "@a[scores={hiderDamage=0},team=seeker,limit=1]","color": "red"}, " found"]
+execute as @a[scores={hiderDamage=2..,turnToSeeker=0},team=hider] run scoreboard players set @s turnToSeeker 1
 
-execute as @a[scores={hiderDamage=4..,turnToSeeker=0},team=hider] run scoreboard players set @s turnToSeeker 1
-execute if entity @a[scores={turnToSeeker=1},team=hider,limit=1] if entity @a[scores={turnToSeeker=0},team=seeker,limit=1] run tellraw @a [{"selector":"@a[scores={turnToSeeker=0},team=seeker,limit=1]"}," found ",{"selector":"@a[scores={turnToSeeker=1},team=hider,limit=1]"}]
+execute if entity @a[scores={turnToSeeker=1},limit=1] if entity @a[scores={turnToSeeker=0},limit=1] run tellraw @a [{"selector":"@a[scores={turnToSeeker=0},limit=1]"}," found ",{"selector":"@a[scores={turnToSeeker=1},limit=1]"}]
 
 # deduction score if found
 execute as @a[scores={turnToSeeker=1},team=hider,tag=!antiDeductionRankScore] run scoreboard players operation @s rankScore -= found rankScoreGet
