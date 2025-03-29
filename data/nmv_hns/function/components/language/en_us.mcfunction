@@ -68,6 +68,10 @@ data modify storage nmv_hns:language general set value { \
     user_info: { \
         title: '["§bUser Info for ", {"selector": "@s","color": "white"}]', \
         uuid_nbt: '["§7- §aUUID NBT: ",{"nbt": "UUID","entity": "@s"}]',\
+        playtime_hour_digit_1: '["§7- §aPlaytime: ", {"score":{"name":"@s","objective":"playtime.hour"}},".0",{"score":{"name":"@s","objective":"playtime.digit_2"}}," hour"]', \
+        playtime_hour_digit_2: '["§7- §aPlaytime: ", {"score":{"name":"@s","objective":"playtime.hour"}},".",{"score":{"name":"@s","objective":"playtime.digit_2"}}," hour"]', \
+        playtime_hours_digit_1: '["§7- §aPlaytime: ", {"score":{"name":"@s","objective":"playtime.hour"}},".0",{"score":{"name":"@s","objective":"playtime.digit_2"}}," hours"]', \
+        playtime_hours_digit_2: '["§7- §aPlaytime: ", {"score":{"name":"@s","objective":"playtime.hour"}},".",{"score":{"name":"@s","objective":"playtime.digit_2"}}," hours"]', \
         rank_stats_title: '["§bRank Stats:"]',\
         rank_tier: '["§7- §aRank Tier: ",{"score":{"name": "@s", "objective": "rankTier"}}]',\
         rank_score_require_point: '["§7- §aRank Scores: ",{"score":{"name": "@s", "objective": "rankScore"}}, "§7 (Require ",{"score":{"name": "@s", "objective": "rankRequireDiff"},"color": "aqua"}," §7Point to Rank Up.)"]',\

@@ -1,0 +1,6 @@
+execute if entity @s[scores={playtime.hour=0}] if score @s playtime.digit_2 < dec time_const run tellraw @s {"nbt":"general.user_info.playtime_hours_digit_1","storage":"nmv_hns:language","interpret":true}
+execute if entity @s[scores={playtime.hour=0}] if score @s playtime.digit_2 >= dec time_const run tellraw @s {"nbt":"general.user_info.playtime_hours_digit_2","storage":"nmv_hns:language","interpret":true}
+execute if entity @s[scores={playtime.hour=1}] if score @s playtime.digit_2 < dec time_const run tellraw @s {"nbt":"general.user_info.playtime_hour_digit_1","storage":"nmv_hns:language","interpret":true}
+execute if entity @s[scores={playtime.hour=1}] if score @s playtime.digit_2 >= dec time_const run tellraw @s {"nbt":"general.user_info.playtime_hour_digit_2","storage":"nmv_hns:language","interpret":true}
+execute if entity @s[scores={playtime.hour=2..}] if score @s playtime.digit_2 < dec time_const run tellraw @s {"nbt":"general.user_info.playtime_hours_digit_1","storage":"nmv_hns:language","interpret":true}
+execute if entity @s[scores={playtime.hour=2..}] if score @s playtime.digit_2 >= dec time_const run tellraw @s {"nbt":"general.user_info.playtime_hours_digit_2","storage":"nmv_hns:language","interpret":true}
