@@ -68,6 +68,10 @@ data modify storage nmv_hns:language general set value { \
     user_info: { \
         title: '["§bThông tin của ", {"selector": "@s","color": "white"}]', \
         uuid_nbt: '["§7- §aUUID NBT: ",{"nbt": "UUID","entity": "@s"}]',\
+        playtime_hour_digit_1: '["§7- §aThời gian chơi: ", {"score":{"name":"@s","objective":"playtime.hour"}},".0",{"score":{"name":"@s","objective":"playtime.digit_2"}}," giờ"]', \
+        playtime_hour_digit_2: '["§7- §aThời gian chơi: ", {"score":{"name":"@s","objective":"playtime.hour"}},".",{"score":{"name":"@s","objective":"playtime.digit_2"}}," giờ"]', \
+        playtime_hours_digit_1: '["§7- §aThời gian chơi: ", {"score":{"name":"@s","objective":"playtime.hour"}},".0",{"score":{"name":"@s","objective":"playtime.digit_2"}}," giờ"]', \
+        playtime_hours_digit_2: '["§7- §aThời gian chơi: ", {"score":{"name":"@s","objective":"playtime.hour"}},".",{"score":{"name":"@s","objective":"playtime.digit_2"}}," giờ"]', \
         rank_stats_title: '["§bXếp hạng Thống kê:"]',\
         rank_tier: '["§7- §aBậc thứ hạng: ",{"score":{"name": "@s", "objective": "rankTier"}}]',\
         rank_score_require_point: '["§7- §aĐiểm Xếp hạng: ",{"score":{"name": "@s", "objective": "rankScore"}}, "§7 (Cần ",{"score":{"name": "@s", "objective": "rankRequireDiff"},"color": "aqua"}," §7Điểm để tăng thứ hạng)"]',\
