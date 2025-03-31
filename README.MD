@@ -75,7 +75,7 @@ Get a Invisibility for 1 minute.
 - Silver (silver) `rankTier: 2` 300 Points
 - Gold (gold) `rankTier: 3` 900 Points
 - Platinum (platinum) `rankTier: 4` 1,500 Points
-- Diamond (diamond) `rankTier: 5` 2,000 Points
+- Diamond (diamond) `rankTier: 5` 2,500 Points
 - Master (master) `rankTier: 6` 4,000 Points
 - Super Master (sp_master) `rankTier: 7` 8,000
 - Legendary (legendary) `rankTier: 8` 12,000 Points
@@ -97,7 +97,7 @@ Can customize the number of players with the command ``/trigger setPlayerRequire
 
 ### I don't know play need to help?
 - If your ``Hider``<br>
-You should hide in one place as much as possible
+You should hide or run away as best you can.
 
 - If your ``Seeker``<br>
 Find all the Player hiding somewhere!

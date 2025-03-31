@@ -45,7 +45,7 @@ data modify storage nmv_hns:language shopPriceText set value { \
 data modify storage nmv_hns:language gamePlay set value { \
     hider: { \
         hider_title: '["Bạn là §aHIDER"]', \
-        hider_subtitle: '["§7Bạn nên trốn ở một nơi an toàn nhất"]', \
+        hider_subtitle: '["§7Bạn nên trốn hoặc chạy nơi nào tốt nhất có thể"]', \
     }, \
     seeker: { \
         seeker_title: '["Bạn là §cSEEKER"]', \
