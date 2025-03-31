@@ -69,6 +69,8 @@ Get a Invisibility for 1 minute.
 
 ## Ranking
 
+> Don't edit this ``rankRequire`` integer
+
 - Bronze (bronze) `rankTier: 1` 0 Points
 - Silver (silver) `rankTier: 2` 300 Points
 - Gold (gold) `rankTier: 3` 900 Points
