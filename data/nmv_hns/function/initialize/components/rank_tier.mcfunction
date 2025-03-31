@@ -8,7 +8,7 @@ scoreboard objectives add rankRequireDiff dummy
 scoreboard objectives add rankScoreGet dummy
 scoreboard objectives add rankScoreGetValue dummy
 
-# ranking (don't edit this integer)
+# ranking
 scoreboard players set bronze rankRequire 0
 scoreboard players set silver rankRequire 300
 scoreboard players set gold rankRequire 900
