@@ -1,0 +1,1 @@
+execute if score @s[scores={topRanking=15}] rankScoreTopValue > @a[limit=1,scores={topRanking=14}] rankScoreTopValue run scoreboard players operation @s[scores={topRanking=15}] topRanking >< @a[limit=1,scores={topRanking=14}] topRanking

@@ -1,0 +1,10 @@
+execute as @a run function nmv_hns:main__function/leaderboard/sort/top_11_20/1
+execute as @a run function nmv_hns:main__function/leaderboard/sort/top_11_20/1/1
+execute as @a run function nmv_hns:main__function/leaderboard/sort/top_11_20/1/2
+execute as @a run function nmv_hns:main__function/leaderboard/sort/top_11_20/1/3
+execute as @a run function nmv_hns:main__function/leaderboard/sort/top_11_20/1/4
+execute as @a run function nmv_hns:main__function/leaderboard/sort/top_11_20/1/5
+execute as @a run function nmv_hns:main__function/leaderboard/sort/top_11_20/1/6
+execute as @a run function nmv_hns:main__function/leaderboard/sort/top_11_20/1/7
+execute as @a run function nmv_hns:main__function/leaderboard/sort/top_11_20/1/8
+execute as @a run function nmv_hns:main__function/leaderboard/sort/top_11_20/1/9
