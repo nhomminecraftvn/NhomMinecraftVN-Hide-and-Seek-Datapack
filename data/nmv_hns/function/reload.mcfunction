@@ -44,7 +44,4 @@ function nmv_hns:initialize/components/playtime
 ##region command
     # show "sb" objectives
     execute if score #enable setupMode matches 0 run scoreboard objectives setdisplay sidebar sb
-
-    # show "rankScore" objectives
-    scoreboard objectives setdisplay list rankScore
 ##endregion command
