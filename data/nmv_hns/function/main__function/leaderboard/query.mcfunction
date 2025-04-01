@@ -1,1 +1,2 @@
 function nmv_hns:main__function/leaderboard/sort/top_1_10/sort_ranking
+function nmv_hns:main__function/leaderboard/sort/top_11_20/sort_ranking
