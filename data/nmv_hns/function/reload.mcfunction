@@ -41,6 +41,9 @@ function nmv_hns:initialize/components/currency
 # playtime
 function nmv_hns:initialize/components/playtime
 
+# leaderboard
+function nmv_hns:initialize/components/leaderboard
+
 ##region command
     # show "sb" objectives
     execute if score #enable setupMode matches 0 run scoreboard objectives setdisplay sidebar sb

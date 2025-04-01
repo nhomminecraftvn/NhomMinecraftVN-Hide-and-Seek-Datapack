@@ -49,6 +49,9 @@ function nmv_hns:components/player_leave
 # playtime
 function nmv_hns:main__function/playtime/repeat
 
+# leaderboard
+function nmv_hns:main__function/leaderboard/repeat
+
 ##region command
     # anti drop item
     kill @e[type=item]
