@@ -19,7 +19,7 @@
 
 A Hide and Seek Minigame in your Minecraft Server
 
-![Static Badge](https://img.shields.io/badge/Created_by-Th3Cr34t0r-blue) 
+![Static Badge](https://img.shields.io/badge/Created_by-Th3Cr34t0r_and_nguyenLongMC-blue) 
 ![Static Badge](https://img.shields.io/badge/Version-Release%201.04-green)
 
 ## Feature
