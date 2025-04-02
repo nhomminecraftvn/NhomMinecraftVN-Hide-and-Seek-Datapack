@@ -1,0 +1,1 @@
+$bossbar set nmv_hns:main name ["$(BossbarName)"]
