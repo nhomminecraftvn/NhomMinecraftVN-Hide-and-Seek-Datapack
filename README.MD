@@ -107,4 +107,4 @@ Find all the Player hiding somewhere!
 
 #
 
-[<img src="./assets/new_logo.png">](#list-of-content) Click NhomMinecraftVN Logo to back to top.
+[<img src="./assets/new_logo.png">](#) Click NhomMinecraftVN Logo to back to top.
