@@ -76,7 +76,11 @@ data modify storage nmv_hns:language general set value { \
         rank_tier: '["§7- §aRank Tier: ",{"score":{"name": "@s", "objective": "rankTier"}}]',\
         rank_score_require_point: '["§7- §aRank Scores: ",{"score":{"name": "@s", "objective": "rankScore"}}, "§7 (Require ",{"score":{"name": "@s", "objective": "rankRequireDiff"},"color": "aqua"}," §7Point to Rank Up.)"]',\
         rank_score_require_points: '["§7- §aRank Scores: ",{"score":{"name": "@s", "objective": "rankScore"}}, "§7 (Require ",{"score":{"name": "@s", "objective": "rankRequireDiff"},"color": "aqua"}," §7Points to Rank Up.)"]',\
-        rank_score_max: '["§7- §aRank Scores: ",{"score":{"name": "@s", "objective": "rankScore"}},"/",{"score":{"name": "@s", "objective": "rankRequireValue"}}, "§7 (Max)"]',\
+        rank_score_max: '["§7- §aRank Scores: ",{"score":{"name": "@s", "objective": "rankScore"}}, "§7 (Max)"]',\
+    }, \
+    leaderboard: { \
+        title: '["§bLeaderboard"]', \
+        subtitle: '["§7Top 10 Ranking in 12 hours."]', \
     }, \
 }
 

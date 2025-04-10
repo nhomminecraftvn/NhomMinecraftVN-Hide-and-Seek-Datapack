@@ -22,6 +22,7 @@ function nmv_hns:components/trigger/players/repeat
     execute as @a[scores={triggerCooldown=1..}] run scoreboard players set @s user_info 0
     execute as @a[scores={triggerCooldown=1..}] run scoreboard players set @s shop 0
     execute as @a[scores={about_datapack=1..}] run scoreboard players set @s about_datapack 0
+    execute as @a[scores={triggerCooldown=1..}] run scoreboard players set @s leaderboard 0
 
     # setup mode
     execute if score #enable setupMode matches 0 run scoreboard players reset @a[tag=!admin] setup_mode

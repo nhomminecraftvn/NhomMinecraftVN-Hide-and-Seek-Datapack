@@ -76,7 +76,11 @@ data modify storage nmv_hns:language general set value { \
         rank_tier: '["§7- §aBậc thứ hạng: ",{"score":{"name": "@s", "objective": "rankTier"}}]',\
         rank_score_require_point: '["§7- §aĐiểm Xếp hạng: ",{"score":{"name": "@s", "objective": "rankScore"}}, "§7 (Cần ",{"score":{"name": "@s", "objective": "rankRequireDiff"},"color": "aqua"}," §7Điểm để tăng thứ hạng)"]',\
         rank_score_require_points: '["§7- §aĐiểm Xếp hạng: ",{"score":{"name": "@s", "objective": "rankScore"}}, "§7 (Cần ",{"score":{"name": "@s", "objective": "rankRequireDiff"},"color": "aqua"}," §7Điểm để tăng thứ hạng)"]',\
-        rank_score_max: '["§7- §aĐiểm Xếp hạng: ",{"score":{"name": "@s", "objective": "rankScore"}},"/",{"score":{"name": "@s", "objective": "rankRequireValue"}}, "§7 (Tối đa)"]',\
+        rank_score_max: '["§7- §aĐiểm Xếp hạng: ",{"score":{"name": "@s", "objective": "rankScore"}}, "§7 (Tối đa)"]',\
+    }, \
+    leaderboard: { \
+        title: '["§bBảng xếp hạng"]', \
+        subtitle: '["§7Danh sách top 10 trong 12 giờ."]', \
     }, \
 }
 
