@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:yellow_dye",
+            "components": {
+              "minecraft:consumable": {"consume_seconds": 2147483647},
+              "minecraft:food": {"nutrition": 0, "saturation": 0, "can_always_eat": true},
+              "minecraft:custom_data": "{leaderboard:1}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nmv_hns:components/click/leaderboard"
+    }
+  }
+  
