@@ -1,6 +1,5 @@
 scoreboard players add list top 0
 
-execute as @a run scoreboard players add @s rankScoreTop 0
 execute as @a run scoreboard players add @s rankScoreTopValue 0
 
 execute unless score list top matches 100.. as @a[scores={rankScoreTopValue=0,rankScore=1..}] run scoreboard players add list top 1

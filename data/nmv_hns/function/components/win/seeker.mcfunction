@@ -11,4 +11,5 @@ execute as @a[team=seeker,tag=multiplyRankScore,tag=!seekerOwner] run function n
 
 execute as @a[tag=multiplyRankScore] run tag @s remove multiplyRankScore
 
+function nmv_hns:components/get_survive_time_leaderboard
 function nmv_hns:main__function/scoreboard/reset

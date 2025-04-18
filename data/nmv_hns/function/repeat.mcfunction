@@ -49,8 +49,10 @@ function nmv_hns:components/player_leave
 # playtime
 function nmv_hns:main__function/playtime/repeat
 
-# leaderboard
-function nmv_hns:main__function/leaderboard/repeat
+##region leaderboard
+    function nmv_hns:main__function/leaderboard/repeat
+    function nmv_hns:main__function/survive_time_leaderboard/repeat
+##endregion leaderboard
 
 ##region command
     # anti drop item

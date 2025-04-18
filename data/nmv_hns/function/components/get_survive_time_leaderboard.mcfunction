@@ -1,0 +1,5 @@
+tellraw @a ["§e§l🥇 ", {"selector":"@a[limit=1,scores={surviveTimeTopRanking=1}]"}, "§7 | §f§l⏱ ", {"score": {"name":"@a[limit=1,scores={surviveTimeTopRanking=1}]","objective":"surviveTime"},"color": "white"},"s"]
+tellraw @a ["§f§l🥈 ", {"selector":"@a[limit=1,scores={surviveTimeTopRanking=2}]"}, "§7 | §f§l⏱ ", {"score": {"name":"@a[limit=1,scores={surviveTimeTopRanking=2}]","objective":"surviveTime"},"color": "white"},"s"]
+tellraw @a ["§6§l🥉 ", {"selector":"@a[limit=1,scores={surviveTimeTopRanking=3}]"}, "§7 | §f§l⏱ ", {"score": {"name":"@a[limit=1,scores={surviveTimeTopRanking=3}]","objective":"surviveTime"},"color": "white"},"s"]
+tellraw @a ["§f4. ", {"selector":"@a[limit=1,scores={surviveTimeTopRanking=4}]"}, "§7 | §f§l⏱ ", {"score": {"name":"@a[limit=1,scores={surviveTimeTopRanking=4}]","objective":"surviveTime"},"color": "white"},"s"]
+tellraw @a ["§f5. ", {"selector":"@a[limit=1,scores={surviveTimeTopRanking=5}]"}, "§7 | §f§l⏱ ", {"score": {"name":"@a[limit=1,scores={surviveTimeTopRanking=5}]","objective":"surviveTime"},"color": "white"},"s"]

@@ -20,3 +20,4 @@ scoreboard players set ingame game_stats 0
 
 # reset survive time
 function nmv_hns:components/survive_time/reset
+function nmv_hns:main__function/survive_time_leaderboard/reset
