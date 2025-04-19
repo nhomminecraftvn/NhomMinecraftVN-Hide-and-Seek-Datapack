@@ -7,4 +7,4 @@ execute unless score list surviveTimeTop matches 100.. as @a[scores={surviveTime
 
 execute as @a run scoreboard players operation @s surviveTimeTopValue = @s surviveTime
 
-# function nmv_hns:main__function/leaderboard/query
+function nmv_hns:main__function/survive_time_leaderboard/query
