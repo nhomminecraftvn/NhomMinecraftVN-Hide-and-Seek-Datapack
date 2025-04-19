@@ -1,5 +1,7 @@
 tellraw @a "§cSeeker §fWin"
 
+function nmv_hns:components/get_survive_time_leaderboard
+
 scoreboard players operation @a[team=seeker] getMoneyValue += seekerWin getMoney
 tellraw @a[team=seeker] ["§a+",{"score":{"name": "seekerWin","objective":"getMoney"},"color": "green"}," §f",{"nbt":"general.money","storage":"nmv_hns:language","interpret":true}]
 
@@ -11,5 +13,4 @@ execute as @a[team=seeker,tag=multiplyRankScore,tag=!seekerOwner] run function n
 
 execute as @a[tag=multiplyRankScore] run tag @s remove multiplyRankScore
 
-function nmv_hns:components/get_survive_time_leaderboard
 function nmv_hns:main__function/scoreboard/reset

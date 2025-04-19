@@ -7,5 +7,3 @@ execute if score @s[tag=!antiDeductionRankScore] rankScore >= enableDeductRankSc
 
 execute if score @s[tag=antiDeductionRankScore] rankScore >= enableDeductRankScore rankScoreGet run tellraw @s ["§c-0"," §fRank Score Points (use ANTI-DEDUCTION RANK SCORE)"]
 execute if entity @s[tag=antiDeductionRankScore] run tag @s remove antiDeductionRankScore
-
-scoreboard players set @s rankScoreTop 1
