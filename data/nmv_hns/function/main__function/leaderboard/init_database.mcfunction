@@ -1,0 +1,10 @@
+function nmv_hns:main__function/leaderboard/init_database/1
+function nmv_hns:main__function/leaderboard/init_database/2
+function nmv_hns:main__function/leaderboard/init_database/3
+function nmv_hns:main__function/leaderboard/init_database/4
+function nmv_hns:main__function/leaderboard/init_database/5
+function nmv_hns:main__function/leaderboard/init_database/6
+function nmv_hns:main__function/leaderboard/init_database/7
+function nmv_hns:main__function/leaderboard/init_database/8
+function nmv_hns:main__function/leaderboard/init_database/9
+function nmv_hns:main__function/leaderboard/init_database/10

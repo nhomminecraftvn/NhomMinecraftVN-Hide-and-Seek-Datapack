@@ -12,3 +12,6 @@ scoreboard players add #seeker playerList 0
 scoreboard players add require playerList 0
 scoreboard players add seekerLength game_stats 0
 scoreboard players add ingame game_stats 0
+
+# database
+function nmv_hns:main__function/leaderboard/init_database

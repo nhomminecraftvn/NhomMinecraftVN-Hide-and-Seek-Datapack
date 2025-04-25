@@ -8,3 +8,5 @@ execute unless score list top matches 100.. as @a[scores={rankScoreTopValue=0,ra
 execute as @a run scoreboard players operation @s rankScoreTopValue = @s rankScore
 
 function nmv_hns:main__function/leaderboard/query
+function nmv_hns:main__function/leaderboard/get_database_uuid
+function nmv_hns:main__function/leaderboard/get_database_score

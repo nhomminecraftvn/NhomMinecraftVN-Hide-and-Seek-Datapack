@@ -1,0 +1,10 @@
+data modify storage nmv_hns:leaderboard top11 set value {uuid:[],rankScore:0s}
+data modify storage nmv_hns:leaderboard top12 set value {uuid:[],rankScore:0s}
+data modify storage nmv_hns:leaderboard top13 set value {uuid:[],rankScore:0s}
+data modify storage nmv_hns:leaderboard top14 set value {uuid:[],rankScore:0s}
+data modify storage nmv_hns:leaderboard top15 set value {uuid:[],rankScore:0s}
+data modify storage nmv_hns:leaderboard top16 set value {uuid:[],rankScore:0s}
+data modify storage nmv_hns:leaderboard top17 set value {uuid:[],rankScore:0s}
+data modify storage nmv_hns:leaderboard top18 set value {uuid:[],rankScore:0s}
+data modify storage nmv_hns:leaderboard top19 set value {uuid:[],rankScore:0s}
+data modify storage nmv_hns:leaderboard top20 set value {uuid:[],rankScore:0s}
