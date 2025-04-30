@@ -1,4 +1,5 @@
 scoreboard objectives add rankScoreTopValue dummy
+scoreboard objectives add rankScoreTotal dummy
 scoreboard objectives add top dummy
 scoreboard objectives add topRanking dummy
 
